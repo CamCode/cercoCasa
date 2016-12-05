@@ -1,0 +1,22 @@
+.container{
+	width: 1000px;
+}
+.menu{
+	height: 43px;
+	background-color: #2d53a8;
+	color: #fff;
+	font-weight: 600;
+}
+.menu .navbar-main {
+    position: relative;
+    padding: 0 2px 0 0;
+}
+.menu .navbar-right {
+    position: relative;
+}
+.header-wrap div{
+	vertical-align: middle;
+}
+.header-wrap h4{
+	margin-top: 25px;
+}
