@@ -183,4 +183,14 @@ section {
         margin-top: 10px;
     }
 }
-    
+//footer
+footer{
+    background-color:$nav-color;
+    padding:5px 0px;
+    .fot-box{
+        max-height: 80px;
+        overflow: hidden;
+        text-align: center;
+        margin-top:10px;
+    }
+}
