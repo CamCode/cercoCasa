@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    width:72vw;
+    width:70vw;
 }
 
 section {
@@ -33,6 +33,10 @@ section {
     background-color: $nav-color;
     height: 50px;
     padding: 0px;
+    z-index: 9999;
+    margin: auto;
+    display: block;
+    width: 100%;
     @extend %text-nav;
 
     li {
@@ -62,6 +66,7 @@ section {
     padding: 0px 15px;
     height: 46px;
     border-bottom: 4px solid $nav-color;
+    z-index: 9999;
     @extend %text-nav;
 
     ul {
@@ -84,7 +89,7 @@ section {
 
             a {
                 color: $font-white;
-                padding: 10px 15px;
+                padding: 10px 10px;
                 height: auto;
 
                 &:hover {
@@ -98,6 +103,12 @@ section {
         padding: 5px 15px;
         margin: auto;
     }
+}
+
+/*menu fixed*/
+.f-nav{    
+    position: fixed;
+    top: 0px;    
 }
 //formulario busqueda
 #form-wrapper {
@@ -165,7 +176,7 @@ section {
 #publi-wrap{
     position:absolute;
     top: 18vw;
-    right: 5px;
+    right: 0px;
     .publi-item{
         margin-top: 10px;
     }

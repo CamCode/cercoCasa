@@ -3,7 +3,7 @@ body {
   font: Arial, Helvetica, sans-serif; }
 
 .container {
-  width: 72vw; }
+  width: 70vw; }
 
 section {
   margin: 10px auto; }
@@ -17,7 +17,11 @@ section {
 #nav-cerco {
   background-color: #319ACF;
   height: 50px;
-  padding: 0px; }
+  padding: 0px;
+  z-index: 9999;
+  margin: auto;
+  display: block;
+  width: 100%; }
   #nav-cerco li:hover {
     background-color: #319ACF; }
   #nav-cerco .navbar-right li:hover {
@@ -28,7 +32,8 @@ section {
 .menu-cerco {
   padding: 0px 15px;
   height: 46px;
-  border-bottom: 4px solid #319ACF; }
+  border-bottom: 4px solid #319ACF;
+  z-index: 9999; }
   .menu-cerco ul li {
     text-align: center; }
     .menu-cerco ul li:hover {
@@ -39,13 +44,18 @@ section {
       background-color: #319ACF; }
     .menu-cerco ul li a {
       color: #fff;
-      padding: 10px 15px;
+      padding: 10px 10px;
       height: auto; }
       .menu-cerco ul li a:hover {
         background-color: #319ACF; }
   .menu-cerco .navbar-main {
     padding: 5px 15px;
     margin: auto; }
+
+/*menu fixed*/
+.f-nav {
+  position: fixed;
+  top: 0px; }
 
 #form-wrapper {
   margin-top: 30px; }
@@ -96,6 +106,6 @@ section {
 #publi-wrap {
   position: absolute;
   top: 18vw;
-  right: 5px; }
+  right: 0px; }
   #publi-wrap .publi-item {
     margin-top: 10px; }
