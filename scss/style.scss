@@ -27,6 +27,19 @@ section {
     font-weight: $font-bold;
     font-size: $font-nav;
 }
+//bootstrap cambios 
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    background-color:$nav-color;
+}
+.label-primary{
+    background-color:$nav-color;
+}
+.text-primary{
+    color: $nav-color;
+}
+a{
+    color: $nav-color;
+}
 
 //menu cerco casa
 #nav-cerco {
