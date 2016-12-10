@@ -137,6 +137,8 @@ section {
 }
 //video section
 .video-section {
+    height: 25vw; 
+    overflow: hidden;
     .pattern-overlay {
         background-color: rgba(71, 71, 71, 0.59);
         padding: 110px 0 32px;
@@ -147,10 +149,10 @@ section {
     h1 {
         text-align: center;
         color: #fff;
-        font-size: 110px;
+        font-size: 50px;
         font-weight: bold;
         text-transform: uppercase;
-        margin: 40px auto 0px;
+        margin: 10px auto 0px;
         text-shadow: 1px 1px 1px #000;
         -webkit-text-shadow: 1px 1px 1px #000;
         -moz-text-shadow: 1px 1px 1px #000;
