@@ -186,11 +186,29 @@ section {
 //footer
 footer{
     background-color:$nav-color;
-    padding:5px 0px;
+    padding:20px 0px;
     .fot-box{
         max-height: 80px;
         overflow: hidden;
         text-align: center;
-        margin-top:10px;
+        margin-top:5px;
+        margin-bottom: 10px;
     }
 }
+//listado pag 
+
+    //list wrap 
+    #list-sect{
+        .list-wrap{
+            margin-top: 10px;
+            h5{
+                font-weight: $font-bold;
+            }
+            em{
+                font-size: 0.9em;
+            }
+            img{
+                max-width: 180px;
+            }
+        }
+    }
