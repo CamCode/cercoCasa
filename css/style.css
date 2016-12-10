@@ -1,9 +1,9 @@
-﻿/* Colors */
+/* Colors */
 body {
   font: Arial, Helvetica, sans-serif; }
 
 .container {
-  width: 1000px; }
+  width: 72vw; }
 
 section {
   margin: 10px auto; }
@@ -93,3 +93,9 @@ section {
 .player {
   font-size: 1px; }
 
+#publi-wrap {
+  position: absolute;
+  top: 18vw;
+  right: 5px; }
+  #publi-wrap .publi-item {
+    margin-top: 10px; }
