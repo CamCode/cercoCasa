@@ -4,6 +4,9 @@ body {
 
 .container {
   width: 70vw; }
+  @media (max-width: 767px) {
+    .container {
+      width: 95vw; } }
 
 section {
   margin: 10px auto; }
@@ -40,6 +43,14 @@ a {
     background-color: #319ACF; }
     #nav-cerco .navbar-right li:hover a {
       background-color: #5aaed9; }
+  #nav-cerco .navbar-toggle {
+    background: #d9edf7;
+    margin-right: 22px; }
+    #nav-cerco .navbar-toggle .icon-bar {
+      background-color: gray; }
+
+#nav-responsive {
+  background-color: #319ACF; }
 
 .menu-cerco {
   padding: 0px 15px;
@@ -73,6 +84,9 @@ a {
   margin-top: 30px; }
   #form-wrapper .panel {
     padding: 15px 0px; }
+    @media (max-width: 767px) {
+      #form-wrapper .panel {
+        padding: 10px; } }
   #form-wrapper .row {
     margin-top: 15px; }
 
