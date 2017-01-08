@@ -12,9 +12,11 @@ $font-nav: 13px;
 body {
     font: $font-stack;
 }
-
+.hide{
+    display:none;
+}
 .container {
-    width:70vw;
+    width:68vw;
     @media (max-width: 767px){
         width: 95vw;
     }
@@ -84,9 +86,19 @@ a{
             background-color:gray;
         }
     }
+     @media (max-width: 640px){
+       position:fixed;
+       top:0px;
+       height: auto;
+        background-color:$nav-color;
+        z-index:9999;
+        text-align:center;
+    }
+    
 }
 #nav-responsive{
         background-color:$nav-color;
+        margin:auto;
     }
 
 .menu-cerco {
@@ -95,6 +107,12 @@ a{
     border-bottom: 4px solid $nav-color;
     z-index: 9999;
     @extend %text-nav;
+
+     @media (max-width: 640px){
+        height: auto;
+         background-color:$nav-color;
+         z-index:9999;
+    }
 
     ul {
         li {
@@ -125,10 +143,10 @@ a{
             }
         }
     }
-
+    
     .navbar-main {
-        padding: 5px 15px;
-        margin: auto;
+        padding: 5px 0px;
+        margin: auto;        
     }
 }
 
@@ -142,7 +160,7 @@ a{
     margin-top: 30px;
 
     .panel {
-        padding: 15px 0px;
+        padding:0px 0px 15px 0px;
 
         @media (max-width: 767px){
             padding:10px;

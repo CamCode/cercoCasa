@@ -17,5 +17,23 @@
     
     });
 
+    if($(window).width()<640) {
+
+         $('#nav-items').hide();   
+
+        $('.navbar-toggle').click(function(){
+                   // $('').slideDown();
+            $('#nav-items').slideToggle( "slow", function() {
+
+            });   
+         });
+         $('#nav-items li').click(function(){
+            $('#nav-items').slideUp();
+        }); 
+
+    }
+
+   
+      
 
 });
