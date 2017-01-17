@@ -98,9 +98,16 @@ a {
   top: 0px; }
 
 #form-wrapper {
-  margin-top: 30px; }
+  margin-top: 30px;
+  background-color: #319ACF;
+  padding: 20px;
+  width: 100vw;
+  margin-left: -26%;
+  margin-right: 0px; }
   #form-wrapper .panel {
-    padding: 0px 0px 15px 0px; }
+    padding: 0px 0px 15px 0px;
+    width: 70%;
+    margin: auto; }
     @media (max-width: 767px) {
       #form-wrapper .panel {
         padding: 10px; } }
