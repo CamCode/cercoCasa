@@ -101,9 +101,9 @@ a {
   margin-top: 30px;
   background-color: #319ACF;
   padding: 20px;
-  width: 100vw;
-  margin-left: -26%;
-  margin-right: 0px; }
+  /* width: 100vw;
+    margin-left: -26%;
+    margin-right: 0px; */ }
   #form-wrapper .panel {
     padding: 0px 0px 15px 0px;
     width: 70%;
@@ -119,13 +119,17 @@ a {
   height: 260px; }
 
 #ventajas-wrap {
-  padding: 15px 0px; }
+  padding: 15px 0px;
+  width: 70%;
+  margin: auto; }
   #ventajas-wrap .box-vn {
     text-align: center; }
 
 .video-section {
   height: 25vw;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 70%;
+  margin: 10px auto; }
   .video-section .pattern-overlay {
     background-color: rgba(71, 71, 71, 0.59);
     padding: 110px 0 32px;

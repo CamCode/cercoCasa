@@ -160,15 +160,14 @@ a{
     margin-top: 30px;
     background-color: $nav-color;
     padding: 20px;
-    width: 100vw;
+    /* width: 100vw;
     margin-left: -26%;
-    margin-right: 0px;
-
+    margin-right: 0px; */
 
     .panel {
         padding:0px 0px 15px 0px;
         width: 70%;
-        margin: auto;
+        margin: auto ;
 
         @media (max-width: 767px){
             padding:10px;
@@ -188,6 +187,8 @@ a{
 //wrap ventajas
 #ventajas-wrap {
     padding: 15px 0px;
+    width: 70%;
+    margin: auto;
 
     .box-vn {
         text-align: center;
@@ -197,6 +198,8 @@ a{
 .video-section {
     height: 25vw; 
     overflow: hidden;
+    width: 70%;
+    margin: 10px auto;
     .pattern-overlay {
         background-color: rgba(71, 71, 71, 0.59);
         padding: 110px 0 32px;
