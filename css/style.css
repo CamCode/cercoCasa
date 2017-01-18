@@ -84,7 +84,7 @@ a {
       background-color: #319ACF; }
     .menu-cerco ul li a {
       color: #fff;
-      padding: 10px 10px;
+      padding: 10px 7px;
       height: auto; }
       .menu-cerco ul li a:hover {
         background-color: #319ACF; }
@@ -173,6 +173,9 @@ footer {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px; }
+
+#list-sect .media-right img {
+  max-width: 75px; }
 
 #list-sect .list-wrap {
   margin-top: 10px; }
