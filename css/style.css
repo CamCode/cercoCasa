@@ -18,7 +18,7 @@ section {
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
-  font-size: 13px; }
+  font-size: 12px; }
 
 .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
   background-color: #319ACF; }
@@ -97,16 +97,21 @@ a {
   position: fixed;
   top: 0px; }
 
-#form-wrapper {
-  margin-top: 30px;
+.form-home {
   background-color: #319ACF;
   padding: 20px;
-  /* width: 100vw;
-    margin-left: -26%;
+  width: 100%;
+  /*margin-left: -26%;
     margin-right: 0px; */ }
+  .form-home .panel {
+    padding: 0px 0px 15px 0px;
+    width: 67%;
+    margin: auto; }
+
+#form-wrapper {
+  margin-top: 30px; }
   #form-wrapper .panel {
     padding: 0px 0px 15px 0px;
-    width: 70%;
     margin: auto; }
     @media (max-width: 767px) {
       #form-wrapper .panel {
@@ -175,7 +180,7 @@ footer {
     margin-bottom: 10px; }
 
 #list-sect .media-right img {
-  max-width: 75px; }
+  max-width: 75px !important; }
 
 #list-sect .list-wrap {
   margin-top: 10px; }

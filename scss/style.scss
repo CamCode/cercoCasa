@@ -7,7 +7,7 @@ $nav-color: #319ACF;
 $font-bold: 600;
 
 //size
-$font-nav: 13px;
+$font-nav: 12px;
 
 body {
     font: $font-stack;
@@ -155,18 +155,26 @@ a{
     position: fixed;
     top: 0px;    
 }
-//formulario busqueda
-#form-wrapper {
-    margin-top: 30px;
+//formulario busqueda home 
+.form-home{
     background-color: $nav-color;
     padding: 20px;
-    /* width: 100vw;
-    margin-left: -26%;
+     width: 100%;
+    /*margin-left: -26%;
     margin-right: 0px; */
-
-    .panel {
+    .panel{
         padding:0px 0px 15px 0px;
-        width: 70%;
+        width: 67%;
+        margin: auto
+    }
+}
+//formulario busqueda
+
+#form-wrapper {
+    margin-top: 30px;    
+
+       .panel {
+        padding:0px 0px 15px 0px;
         margin: auto ;
 
         @media (max-width: 767px){
@@ -261,7 +269,7 @@ footer{
     //list wrap 
     #list-sect{
         .media-right img{
-            max-width: 75px;
+            max-width: 75px!important;;
         }
         .list-wrap{
             margin-top: 10px;
