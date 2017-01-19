@@ -33,6 +33,18 @@
 
     }
 
+      $('.vitrina-principal').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            autoplay: true,
+            pauseOnHover:true,
+            arrows:true,
+            autoplaySpeed:7000,
+            centerMode: true
+          });
+
    
       
 

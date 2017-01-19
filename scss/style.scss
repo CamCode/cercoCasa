@@ -1,30 +1,32 @@
-$font-stack: Arial, Helvetica, sans-serif;
+$font-stack: Arial,
+Helvetica,
+sans-serif;
 
 /* Colors */
+
 $font-white: #fff;
 $font-text: #1d1b1b;
 $nav-color: #319ACF;
 $font-bold: 600;
-
 //size
 $font-nav: 12px;
-
 body {
     font: $font-stack;
 }
-.hide{
-    display:none;
+
+.hide {
+    display: none;
 }
+
 .container {
-    width:68vw;
-    @media (max-width: 767px){
+    width: 68vw;
+    @media (max-width: 767px) {
         width: 95vw;
     }
-
 }
 
 section {
-    margin: 10px auto;   
+    margin: 10px auto;
 }
 
 %text-nav {
@@ -33,17 +35,26 @@ section {
     font-weight: $font-bold;
     font-size: $font-nav;
 }
+
 //bootstrap cambios 
-.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
-    background-color:$nav-color;
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background-color: $nav-color;
 }
-.label-primary{
-    background-color:$nav-color;
+
+.label-primary {
+    background-color: $nav-color;
 }
-.text-primary{
+
+.text-primary {
     color: $nav-color;
 }
-a{
+
+a {
     color: $nav-color;
 }
 
@@ -57,49 +68,45 @@ a{
     display: block;
     width: 100%;
     @extend %text-nav;
-
     li {
         &:hover {
             background-color: $nav-color;
         }
-
         a {
             @extend %text-nav;
         }
     }
-
     .navbar-right {
         li {
             &:hover {
                 background-color: $nav-color;
-
                 a {
-                    background-color: lighten( $nav-color, 10% );
+                    background-color: lighten( $nav-color, 10%);
                 }
             }
         }
     }
-    .navbar-toggle{
-        background:#d9edf7;
+    .navbar-toggle {
+        background: #d9edf7;
         margin-right: 22px;
-        .icon-bar{
-            background-color:gray;
+        .icon-bar {
+            background-color: gray;
         }
     }
-     @media (max-width: 640px){
-       position:fixed;
-       top:0px;
-       height: auto;
-        background-color:$nav-color;
-        z-index:9999;
-        text-align:center;
+    @media (max-width: 640px) {
+        position: fixed;
+        top: 0px;
+        height: auto;
+        background-color: $nav-color;
+        z-index: 9999;
+        text-align: center;
     }
-    
 }
-#nav-responsive{
-        background-color:$nav-color;
-        margin:auto;
-    }
+
+#nav-responsive {
+    background-color: $nav-color;
+    margin: auto;
+}
 
 .menu-cerco {
     padding: 0px 15px;
@@ -107,104 +114,97 @@ a{
     border-bottom: 4px solid $nav-color;
     z-index: 9999;
     @extend %text-nav;
-
-     @media (max-width: 640px){
+    @media (max-width: 640px) {
         height: auto;
-         background-color:$nav-color;
-         z-index:9999;
+        background-color: $nav-color;
+        z-index: 9999;
     }
-
     ul {
         li {
             text-align: center;
-
             &:hover {
                 background-color: $nav-color;
-
                 a {
                     border-bottom: 4px solid #fff;
                 }
             }
-
             &:active {
                 a {
                     background-color: $nav-color;
                 }
             }
-
             a {
                 color: $font-white;
                 padding: 10px 7px;
                 height: auto;
-
                 &:hover {
                     background-color: $nav-color;
                 }
             }
         }
     }
-    
     .navbar-main {
         padding: 5px 0px;
-        margin: auto;        
+        margin: auto;
     }
 }
 
+
 /*menu fixed*/
-.f-nav{    
+
+.f-nav {
     position: fixed;
-    top: 0px;    
+    top: 0px;
 }
+
 //formulario busqueda home 
-.form-home{
+.form-home {
     background-color: $nav-color;
     padding: 20px;
-     width: 100%;
+    width: 100%;
     /*margin-left: -26%;
     margin-right: 0px; */
-    .panel{
-        padding:0px 0px 15px 0px;
+    .panel {
+        padding: 0px 0px 15px 0px;
         width: 67%;
         margin: auto
     }
 }
+
 //formulario busqueda
-
 #form-wrapper {
-    margin-top: 30px;    
-
-       .panel {
-        padding:0px 0px 15px 0px;
-        margin: auto ;
-
-        @media (max-width: 767px){
-            padding:10px;
+    margin-top: 30px;
+    .panel {
+        padding: 0px 0px 15px 0px;
+        margin: auto;
+        @media (max-width: 767px) {
+            padding: 10px;
         }
     }
-
     .row {
         margin-top: 15px;
     }
-    
 }
+
 //section color
 #color-wrap {
-    background-color: lighten( $nav-color, 10% );
+    background-color: lighten( $nav-color, 10%);
     height: 260px;
 }
+
 //wrap ventajas
 #ventajas-wrap {
     padding: 15px 0px;
     width: 70%;
     margin: auto;
-
     .box-vn {
         text-align: center;
     }
 }
+
 //video section
 .video-section {
-    height: 25vw; 
+    height: 25vw;
     overflow: hidden;
     width: 70%;
     margin: 10px auto;
@@ -214,7 +214,6 @@ a{
         min-height: 496px;
         /* Incase of overlay problems just increase the min-height*/
     }
-
     h1 {
         text-align: center;
         color: #fff;
@@ -226,7 +225,6 @@ a{
         -webkit-text-shadow: 1px 1px 1px #000;
         -moz-text-shadow: 1px 1px 1px #000;
     }
-
     h3 {
         text-align: center;
         color: #fff;
@@ -234,7 +232,6 @@ a{
         font-weight: lighter;
         margin: 0px auto 15px;
     }
-
     .buttonBar {
         display: none;
     }
@@ -243,44 +240,48 @@ a{
 .player {
     font-size: 1px;
 }
+
 // publicidad
-#publi-wrap{
-    position:absolute;
+#publi-wrap {
+    position: absolute;
     top: 22vw;
     right: 5px;
-    .publi-item{
+    .publi-item {
         margin-top: 10px;
     }
 }
+
 //footer
-footer{
-    background-color:$nav-color;
-    padding:20px 0px;
-    .fot-box{
+footer {
+    background-color: $nav-color;
+    padding: 20px 0px;
+    .fot-box {
         max-height: 80px;
         overflow: hidden;
         text-align: center;
-        margin-top:5px;
+        margin-top: 5px;
         margin-bottom: 10px;
     }
 }
-//listado pag 
 
-    //list wrap 
-    #list-sect{
-        .media-right img{
-            max-width: 75px!important;;
+//listado pag 
+//list wrap 
+#list-sect {
+    .media-right img {
+        max-width: 75px!important;
+        ;
+    }
+    .list-wrap {
+        margin-top: 10px;
+        h5 {
+            font-weight: $font-bold;
         }
-        .list-wrap{
-            margin-top: 10px;
-            h5{
-                font-weight: $font-bold;
-            }
-            em{
-                font-size: 0.9em;
-            }
-            img{
-                max-width: 180px;
-            }
+        em {
+            font-size: 0.9em;
+        }
+        img {
+            max-width: 180px;
         }
     }
+}
+

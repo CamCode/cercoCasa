@@ -1,9 +1,8 @@
-
-
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -21,7 +20,6 @@
 </head>
 
 <body>
-
     <div class="container">
         <div class="page-header">
             <div class="row">
@@ -36,15 +34,14 @@
             </div>
         </div>
     </div>
-   
-     <div class="container-fluid" id="nav-cerco">
-      <div class="navbar-header">
-              <button type="button" class="navbar-toggle">
+    <div class="container-fluid" id="nav-cerco">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-              </button>
+            </button>
         </div>
         <div class="container" id="nav-items">
             <div class="row">
@@ -77,1090 +74,579 @@
     <div class="container-fluid">
         <!--formulario de busqueda-->
         <section id="form-wrapper" class="form-home">
-
-        <div class="panel panel-info">
-
-            <div>
-
-              <!-- Nav tabs -->
-              <ul class="nav nav-tabs bg-info" role="tablist">
-                <li role="presentation" class="active"><a href="#search" aria-controls="search" role="tab" data-toggle="tab">Ricerca</a></li>
-                <li role="presentation"><a href="#avanzata" aria-controls="avanzata" role="tab" data-toggle="tab">Ricerca avanzata</a></li>
-               
-              </ul>
-
-              <!-- Tab panes -->
-              <div class="tab-content ">
-                <div role="tabpanel" class="tab-pane fade in active" id="search">
-                     <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
-                        <form class="form-horizontal" action="vendita_affitto_case_ville_cremona.asp?ric=si">
-                            <div class="form-group">
-                                <div class="col-sm-4">
-                                    <label for="exampleInputPassword1">Regione</label>
-									
-                                    <select name="slt_regione" class="form-control" id="slt_regione">
-                                    
-                                    <option value="0" >Selezionare una Regione</option>
-                                    
-		                                    <option  value="8" >Emilia Romagna</option>
-                                    
-										
-		                                    <option  value="2" >Lombardia</option>
-                                    
-										
-                                    </select>
-                                           
-    <!--<input type="select" class="form-control" id="exampleInputPassword1" placeholder="Password">-->
-                                </div>
-                                <div class="col-sm-4">
-                                    <label for="exampleInputPassword1">Provincia</label>
-									
-										<select name="slt_provincia" class="form-control" id="slt_provincia">
-										
-										<option value="0">Tutte le Province</option>
-										
-		                                    <option  value="16" >Bologna (BO)</option>
-                                    
-										
-		                                    <option  value="29" >Cremona (CR)</option>
-                                    
-										
-		                                    <option  value="52" >Mantova (MN)</option>
-                                    
-										
-		                                    <option  value="56" >Milano (MI)</option>
-                                    
-										
-		                                    <option  value="65" >Parma (PR)</option>
-                                    
-										
-		                                    <option  value="70" >Piacenza (PC)</option>
-                                    
-										
-		                                    <option  value="79" >Reggio-Emilia (RE)</option>
-                                    
-										
-                                    </select>
-                                                                    </div>
-                               <div class="col-sm-4">
-                                    <label for="exampleInputPassword1">Comune</label>
-									
-										<select name="slt_com" class="form-control" id="slt_com">
-										
-										<option value="0">Tutti I Comuni</option>
-										
-		                                    <option  value="29" >Acquanegra Cremonese</option>
-                                    
-										
-		                                    <option  value="771" >Bonemerse</option>
-                                    
-										
-		                                    <option  value="875" >Bozzolo</option>
-                                    
-										
-		                                    <option  value="1302" >Cappella de&acute; Picenardi</option>
-                                    
-										
-		                                    <option  value="1455" >Casalbuttano ed Uniti</option>
-                                    
-										
-		                                    <option  value="1682" >Castelleone</option>
-                                    
-										
-		                                    <option  value="1773" >Castelverde</option>
-                                    
-										
-		                                    <option  value="1779" >Castelvetro Piacentino</option>
-                                    
-										
-		                                    <option  value="1023" >Ca&acute; d&acute;Andrea</option>
-                                    
-										
-		                                    <option  value="1894" >Cella Dati</option>
-                                    
-										
-		                                    <option  value="2094" >Cicognolo</option>
-                                    
-										
-		                                    <option  value="2111" >Cingia de&acute; Botti</option>
-                                    
-										
-		                                    <option  value="2371" >Corsico</option>
-                                    
-										
-		                                    <option  value="2380" >Corte de&acute; Frati</option>
-                                    
-										
-		                                    <option  value="2447" >Cremona</option>
-                                    
-										
-		                                    <option  value="2547" >Derovere</option>
-                                    
-										
-		                                    <option  value="2978" >Gabbioneta-Binanuova</option>
-                                    
-										
-		                                    <option  value="2982" >Gadesco-Pieve Delmona</option>
-                                    
-										
-		                                    <option  value="3060" >Gattatico</option>
-                                    
-										
-		                                    <option  value="3108" >Gerre de&acute; Caprioli</option>
-                                    
-										
-		                                    <option  value="3272" >Grontardo</option>
-                                    
-										
-		                                    <option  value="3744" >Madignano</option>
-                                    
-										
-		                                    <option  value="3783" >Malagnino</option>
-                                    
-										
-		                                    <option  value="4447" >Monticelli d&acute;Ongina</option>
-                                    
-										
-		                                    <option  value="4477" >Monzuno</option>
-                                    
-										
-		                                    <option  value="4750" >Olmeneta</option>
-                                    
-										
-		                                    <option  value="4859" >Ostiano</option>
-                                    
-										
-		                                    <option  value="4897" >Paderno Ponchielli</option>
-                                    
-										
-		                                    <option  value="5091" >Persico Dosimo</option>
-                                    
-										
-		                                    <option  value="5102" >Pescarolo ed Uniti</option>
-                                    
-										
-		                                    <option  value="5120" >Pessina Cremonese</option>
-                                    
-										
-		                                    <option  value="5148" >Piadena</option>
-                                    
-										
-		                                    <option  value="5234" >Pieve d&acute;Olmi</option>
-                                    
-										
-		                                    <option  value="5240" >Pieve San Giacomo</option>
-                                    
-										
-		                                    <option  value="5298" >Pizzighettone</option>
-                                    
-										
-		                                    <option  value="5493" >Pozzaglio ed Uniti</option>
-                                    
-										
-		                                    <option  value="5804" >Robecco d&acute;Oglio</option>
-                                    
-										
-		                                    <option  value="6085" >Salsomaggiore Terme</option>
-                                    
-										
-		                                    <option  value="6166" >San Daniele Po</option>
-                                    
-										
-		                                    <option  value="6241" >San Giovanni in Croce</option>
-                                    
-										
-		                                    <option  value="6711" >Scandolara Ravara</option>
-                                    
-										
-		                                    <option  value="6862" >Sesto ed Uniti</option>
-                                    
-										
-		                                    <option  value="7006" >Sospiro</option>
-                                    
-										
-		                                    <option  value="7042" >Spinadesco</option>
-                                    
-										
-		                                    <option  value="7784" >Vescovato</option>
-                                    
-										
-		                                    <option  value="8077" >Zibello</option>
-                                    
-										
-                                    </select>
-                                                                    </div>
-                            </div>
-
-                            
-
-                            <div class="form-group">
-                                <div class="col-sm-6">
-                                    <label for="prezzoMax">Contratto</label>
-                                    <select name="slt_contratto" id="slt_contratto" class="form-control" >
-                                    <option value="0">Vendita</option>
-                                    <option value="0">Affitto</option>
-    </select>
-                                </div>
-                                <div class="col-sm-6">
-                                
-                                    <label for="prezzoMax">Tipologia</label>
-                                    <select name="slt_immobile" id="slt_tipo" class="form-control" >
-                                    <option value="0"  selected >Selezionare l'immobile</option>
-	
-	<option value="14" >Altri</option>
-    	
-	<option value="1" >Appartamento</option>
-    	
-	<option value="19" >Appartamento da Ristrutturare</option>
-    	
-	<option value="26" >Azienda</option>
-    	
-	<option value="25" >Azienda Agricola</option>
-    	
-	<option value="18" >Casa Autonoma Plurifamiliare</option>
-    	
-	<option value="5" >Casa Autonoma Singola</option>
-    	
-	<option value="6" >Edifici e Cascinali da Ristrutturare</option>
-    	
-	<option value="22" >Garage</option>
-    	
-	<option value="21" >Mansarda o Attico</option>
-    	
-	<option value="24" >Rustico</option>
-    	
-	<option value="23" >Stabile</option>
-    	
-	<option value="12" >Terreno Agricolo</option>
-    	
-	<option value="13" >Terreno Altre Destinazioni</option>
-    	
-	<option value="11" >Terreno Residenziale</option>
-    	
-	<option value="3" >Villa  Singola Plurifamiliare</option>
-    	
-	<option value="17" >Villa Schiera Angolare</option>
-    	
-	<option value="4" >Villa Schiera Centrale</option>
-    	
-	<option value="2" >Villa Singola Unifamiliare</option>
-    	
-    </select>
-                                </div>
-                                </div>
-                                <div class="form-group">
-                                <div class="col-sm-6">
-                                    <label for="prezzoMax">Da € </label>
-                                    <select name="slt_da" id="slt_da" class="form-control" >
-        <option value="0"  selected  >0</option>
-        <option value="250"  >250</option>
-        <option value="500"  >500</option>
-        <option value="750"  >750</option>
-        <option value="1000"  >1.000</option>
-        <option value="50000"  >50.000</option>
-        <option value="100000"  >100.000</option>
-        <option value="150000"  >150.000</option>
-        <option value="200000"  >200.000</option>
-        <option value="250000"  >250.000</option>
-        <option value="300000"  >300.000</option>
-        <option value="350000"  >350.000</option>
-        <option value="400000"  >400.000</option>
-        <option value="450000"  >450.000</option>
-        <option value="500000"  >500.000</option>
-      </select>
-                                </div>
-                                <div class="col-sm-6">
-                                    <label for="prezzoMax">A € </label>
-                                    
-<select name="slt_a" class="form-control" >
-        
-        
-        <option value="250"  >250</option>
-        <option value="500"  >500</option>
-        <option value="750"  >750</option>
-        <option value="1000"  >1.000</option>
-        <option value="50000"  >50.000</option>
-        <option value="100000"  >100.000</option>
-        <option value="150000"  >150.000</option>
-        <option value="200000"  >200.000</option>
-        <option value="250000"  >250.000</option>
-        <option value="300000"  >300.000</option>
-        <option value="350000"  >350.000</option>
-        <option value="400000"  >400.000</option>
-        <option value="450000"  >450.000</option>
-        <option value="500000"  >500.000</option>
-		
-		 <option value="2800000"  selected >2.800.000</option>
-      </select>
-                                </div>
-                            </div>
+            <div class="panel panel-info">
+                <div>
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs bg-info" role="tablist">
+                        <li role="presentation" class="active"><a href="#search" aria-controls="search" role="tab" data-toggle="tab">Ricerca</a></li>
+                        <li role="presentation"><a href="#avanzata" aria-controls="avanzata" role="tab" data-toggle="tab">Ricerca avanzata</a></li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content ">
+                        <div role="tabpanel" class="tab-pane fade in active" id="search">
                             <div class="row">
-                                <div class="col-sm-12">
-                                    <button type="submit" class="btn btn-default pull-right"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Cerca</button>
+                                <div class="col-sm-8 col-sm-offset-2">
+                                    <form class="form-horizontal" action="vendita_affitto_case_ville_cremona.asp?ric=si">
+                                        <div class="form-group">
+                                            <div class="col-sm-4">
+                                                <label for="exampleInputPassword1">Regione</label>
+                                                <select name="slt_regione" class="form-control" id="slt_regione">
+                                                    <option value="0">Selezionare una Regione</option>
+                                                    <option value="8">Emilia Romagna</option>
+                                                    <option value="2">Lombardia</option>
+                                                </select>
+                                                <!--<input type="select" class="form-control" id="exampleInputPassword1" placeholder="Password">-->
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <label for="exampleInputPassword1">Provincia</label>
+                                                <select name="slt_provincia" class="form-control" id="slt_provincia">
+                                                    <option value="0">Tutte le Province</option>
+                                                    <option value="16">Bologna (BO)</option>
+                                                    <option value="29">Cremona (CR)</option>
+                                                    <option value="52">Mantova (MN)</option>
+                                                    <option value="56">Milano (MI)</option>
+                                                    <option value="65">Parma (PR)</option>
+                                                    <option value="70">Piacenza (PC)</option>
+                                                    <option value="79">Reggio-Emilia (RE)</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <label for="exampleInputPassword1">Comune</label>
+                                                <select name="slt_com" class="form-control" id="slt_com">
+                                                    <option value="0">Tutti I Comuni</option>
+                                                    <option value="29">Acquanegra Cremonese</option>
+                                                    <option value="771">Bonemerse</option>
+                                                    <option value="875">Bozzolo</option>
+                                                    <option value="1302">Cappella de&acute; Picenardi</option>
+                                                    <option value="1455">Casalbuttano ed Uniti</option>
+                                                    <option value="1682">Castelleone</option>
+                                                    <option value="1773">Castelverde</option>
+                                                    <option value="1779">Castelvetro Piacentino</option>
+                                                    <option value="1023">Ca&acute; d&acute;Andrea</option>
+                                                    <option value="1894">Cella Dati</option>
+                                                    <option value="2094">Cicognolo</option>
+                                                    <option value="2111">Cingia de&acute; Botti</option>
+                                                    <option value="2371">Corsico</option>
+                                                    <option value="2380">Corte de&acute; Frati</option>
+                                                    <option value="2447">Cremona</option>
+                                                    <option value="2547">Derovere</option>
+                                                    <option value="2978">Gabbioneta-Binanuova</option>
+                                                    <option value="2982">Gadesco-Pieve Delmona</option>
+                                                    <option value="3060">Gattatico</option>
+                                                    <option value="3108">Gerre de&acute; Caprioli</option>
+                                                    <option value="3272">Grontardo</option>
+                                                    <option value="3744">Madignano</option>
+                                                    <option value="3783">Malagnino</option>
+                                                    <option value="4447">Monticelli d&acute;Ongina</option>
+                                                    <option value="4477">Monzuno</option>
+                                                    <option value="4750">Olmeneta</option>
+                                                    <option value="4859">Ostiano</option>
+                                                    <option value="4897">Paderno Ponchielli</option>
+                                                    <option value="5091">Persico Dosimo</option>
+                                                    <option value="5102">Pescarolo ed Uniti</option>
+                                                    <option value="5120">Pessina Cremonese</option>
+                                                    <option value="5148">Piadena</option>
+                                                    <option value="5234">Pieve d&acute;Olmi</option>
+                                                    <option value="5240">Pieve San Giacomo</option>
+                                                    <option value="5298">Pizzighettone</option>
+                                                    <option value="5493">Pozzaglio ed Uniti</option>
+                                                    <option value="5804">Robecco d&acute;Oglio</option>
+                                                    <option value="6085">Salsomaggiore Terme</option>
+                                                    <option value="6166">San Daniele Po</option>
+                                                    <option value="6241">San Giovanni in Croce</option>
+                                                    <option value="6711">Scandolara Ravara</option>
+                                                    <option value="6862">Sesto ed Uniti</option>
+                                                    <option value="7006">Sospiro</option>
+                                                    <option value="7042">Spinadesco</option>
+                                                    <option value="7784">Vescovato</option>
+                                                    <option value="8077">Zibello</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-sm-6">
+                                                <label for="prezzoMax">Contratto</label>
+                                                <select name="slt_contratto" id="slt_contratto" class="form-control">
+                                                    <option value="0">Vendita</option>
+                                                    <option value="0">Affitto</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label for="prezzoMax">Tipologia</label>
+                                                <select name="slt_immobile" id="slt_tipo" class="form-control">
+                                                    <option value="0" selected>Selezionare l'immobile</option>
+                                                    <option value="14">Altri</option>
+                                                    <option value="1">Appartamento</option>
+                                                    <option value="19">Appartamento da Ristrutturare</option>
+                                                    <option value="26">Azienda</option>
+                                                    <option value="25">Azienda Agricola</option>
+                                                    <option value="18">Casa Autonoma Plurifamiliare</option>
+                                                    <option value="5">Casa Autonoma Singola</option>
+                                                    <option value="6">Edifici e Cascinali da Ristrutturare</option>
+                                                    <option value="22">Garage</option>
+                                                    <option value="21">Mansarda o Attico</option>
+                                                    <option value="24">Rustico</option>
+                                                    <option value="23">Stabile</option>
+                                                    <option value="12">Terreno Agricolo</option>
+                                                    <option value="13">Terreno Altre Destinazioni</option>
+                                                    <option value="11">Terreno Residenziale</option>
+                                                    <option value="3">Villa Singola Plurifamiliare</option>
+                                                    <option value="17">Villa Schiera Angolare</option>
+                                                    <option value="4">Villa Schiera Centrale</option>
+                                                    <option value="2">Villa Singola Unifamiliare</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-sm-6">
+                                                <label for="prezzoMax">Da € </label>
+                                                <select name="slt_da" id="slt_da" class="form-control">
+                                                    <option value="0" selected>0</option>
+                                                    <option value="250">250</option>
+                                                    <option value="500">500</option>
+                                                    <option value="750">750</option>
+                                                    <option value="1000">1.000</option>
+                                                    <option value="50000">50.000</option>
+                                                    <option value="100000">100.000</option>
+                                                    <option value="150000">150.000</option>
+                                                    <option value="200000">200.000</option>
+                                                    <option value="250000">250.000</option>
+                                                    <option value="300000">300.000</option>
+                                                    <option value="350000">350.000</option>
+                                                    <option value="400000">400.000</option>
+                                                    <option value="450000">450.000</option>
+                                                    <option value="500000">500.000</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label for="prezzoMax">A € </label>
+                                                <select name="slt_a" class="form-control">
+                                                    <option value="250">250</option>
+                                                    <option value="500">500</option>
+                                                    <option value="750">750</option>
+                                                    <option value="1000">1.000</option>
+                                                    <option value="50000">50.000</option>
+                                                    <option value="100000">100.000</option>
+                                                    <option value="150000">150.000</option>
+                                                    <option value="200000">200.000</option>
+                                                    <option value="250000">250.000</option>
+                                                    <option value="300000">300.000</option>
+                                                    <option value="350000">350.000</option>
+                                                    <option value="400000">400.000</option>
+                                                    <option value="450000">450.000</option>
+                                                    <option value="500000">500.000</option>
+                                                    <option value="2800000" selected>2.800.000</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <button type="submit" class="btn btn-default pull-right"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Cerca</button>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
-                        </form>
-                    </div>
-                </div>
-                </div>
-                <div role="tabpanel" class="tab-pane fade" id="avanzata">
-                     <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
-                        <form class="form-horizontal">
-                        <div class="form-group">
-                                <div class="col-sm-6">
-                                    <label for="exampleInputPassword1">Regione</label>
-									
-                                    <select name="slt_regione" class="form-control" id="slt_regione">
-                                    
-                                    <option value="0" >Selezionare una Regione</option>
-                                    
-		                                    <option  value="8" >Emilia Romagna</option>
-                                    
-										
-		                                    <option  value="2" >Lombardia</option>
-                                    
-										
-                                    </select>
-                                    
-                                </div>
-                                <div class="col-sm-6">
-                                <label for="exampleInputPassword1">Provincia</label>
-									
-										<select name="slt_provincia" class="form-control" id="slt_provincia">
-										
-										<option value="0">Tutte le Province</option>
-										
-		                                    <option  value="16" >Bologna (BO)</option>
-                                    
-										
-		                                    <option  value="29" >Cremona (CR)</option>
-                                    
-										
-		                                    <option  value="52" >Mantova (MN)</option>
-                                    
-										
-		                                    <option  value="56" >Milano (MI)</option>
-                                    
-										
-		                                    <option  value="65" >Parma (PR)</option>
-                                    
-										
-		                                    <option  value="70" >Piacenza (PC)</option>
-                                    
-										
-		                                    <option  value="79" >Reggio-Emilia (RE)</option>
-                                    
-										
-                                    </select>
-                                    
-                                </div>
-                                </div>
-                            <div class="form-group">
-                                <div class="col-sm-12">
-                                    <label for="exampleInputPassword1">Comune</label>
-                                    <table border="1" align="center" cellpadding="0" cellspacing="0" class="table100"><br>sqlcomune select distinct(comune) as comuni from immobili where  (id_gruppoutenti=2 or id_gruppoutenticond=2  ) order by comune asc
-<tr>
-
-<td valign="top">
-
-<input name="chk_comune(0)" type="checkbox" value="acquanegra cremonese" >acquanegra cremonese
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(1)" type="checkbox" value="Bagnara" >Bagnara
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(2)" type="checkbox" value="Bettenesco" >Bettenesco
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(3)" type="checkbox" value="bonemerse" >bonemerse
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(4)" type="checkbox" value="BOSCHETTO - CREMONA" >BOSCHETTO - CREMONA
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-</tr>
-
-<tr>
-
-<td valign="top">
-
-<input name="chk_comune(5)" type="checkbox" value="Bosco ex Parmigiano" >Bosco ex Parmigiano
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(6)" type="checkbox" value="cappella de´ Picenardi" >cappella de´ Picenardi
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(7)" type="checkbox" value="CASALBUTTANO" >CASALBUTTANO
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(8)" type="checkbox" value="Casanova Del Morbasco" >Casanova Del Morbasco
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(9)" type="checkbox" value="castelverde" >castelverde
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-</tr>
-
-<tr>
-
-<td valign="top">
-
-<input name="chk_comune(10)" type="checkbox" value="CASTELVERDE - COSTA S.ABRAMO" >CASTELVERDE - COSTA S.ABRAMO
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(11)" type="checkbox" value="CASTELVERDE - LIVRASCO" >CASTELVERDE - LIVRASCO
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(12)" type="checkbox" value="CASTELVETRO PC" >CASTELVETRO PC
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(13)" type="checkbox" value="CASTELVETRO PIACENTINO" >CASTELVETRO PIACENTINO
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(14)" type="checkbox" value="Cavatigozzi" >Cavatigozzi
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-</tr>
-
-<tr>
-
-<td valign="top">
-
-<input name="chk_comune(15)" type="checkbox" value="CA´ D´ANDREA - FRAZIONE BREDA GUAZZONA" >CA´ D´ANDREA - FRAZIONE BREDA GUAZZONA
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(16)" type="checkbox" value="CICOGNOLO" >CICOGNOLO
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(17)" type="checkbox" value="corte dè frati" >corte dè frati
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(18)" type="checkbox" value="COSTA S.ABRAMO" >COSTA S.ABRAMO
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(19)" type="checkbox" value="cremona" >cremona
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-</tr>
-
-<tr>
-
-<td valign="top">
-
-<input name="chk_comune(20)" type="checkbox" value="CREMONA LOC. MIGLIARO" >CREMONA LOC. MIGLIARO
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(21)" type="checkbox" value="Cremona san felice" >Cremona san felice
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(22)" type="checkbox" value="CREMONA,ZONA PO" >CREMONA,ZONA PO
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(23)" type="checkbox" value="DEROVERE" >DEROVERE
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(24)" type="checkbox" value="Dosimo" >Dosimo
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-</tr>
-
-<tr>
-
-<td valign="top">
-
-<input name="chk_comune(25)" type="checkbox" value="FENGO" >FENGO
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(26)" type="checkbox" value="Gabbioneta binanuova" >Gabbioneta binanuova
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(27)" type="checkbox" value="GADESCO PIEVE DELMONA" >GADESCO PIEVE DELMONA
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(28)" type="checkbox" value="Gattatico" >Gattatico
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(29)" type="checkbox" value="Grontardo fraz. Levata" >Grontardo fraz. Levata
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-</tr>
-
-<tr>
-
-<td valign="top">
-
-<input name="chk_comune(30)" type="checkbox" value="longardore" >longardore
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(31)" type="checkbox" value="Madignano" >Madignano
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(32)" type="checkbox" value="malagnino" >malagnino
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(33)" type="checkbox" value="MILANO" >MILANO
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(34)" type="checkbox" value="Monticelli D´Ongina" >Monticelli D´Ongina
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-</tr>
-
-<tr>
-
-<td valign="top">
-
-<input name="chk_comune(35)" type="checkbox" value="Monzuno" >Monzuno
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(36)" type="checkbox" value="OLMENETA" >OLMENETA
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(37)" type="checkbox" value="olza" >olza
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(38)" type="checkbox" value="ostiano" >ostiano
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(39)" type="checkbox" value="PADERNO PONCHIELLI" >PADERNO PONCHIELLI
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-</tr>
-
-<tr>
-
-<td valign="top">
-
-<input name="chk_comune(40)" type="checkbox" value="PERSICHELLO" >PERSICHELLO
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(41)" type="checkbox" value="PERSICO DOSIMO  CREMONA" >PERSICO DOSIMO  CREMONA
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(42)" type="checkbox" value="PESCAROLO" >PESCAROLO
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(43)" type="checkbox" value="PESSINA CREMONESE" >PESSINA CREMONESE
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(44)" type="checkbox" value="Piadena" >Piadena
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-</tr>
-
-<tr>
-
-<td valign="top">
-
-<input name="chk_comune(45)" type="checkbox" value="pieve d´olmi" >pieve d´olmi
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(46)" type="checkbox" value="pieve san giacomo" >pieve san giacomo
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(47)" type="checkbox" value="Pizzighettone" >Pizzighettone
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(48)" type="checkbox" value="POZZAGLIO" >POZZAGLIO
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(49)" type="checkbox" value="pugnolo" >pugnolo
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-</tr>
-
-<tr>
-
-<td valign="top">
-
-<input name="chk_comune(50)" type="checkbox" value="Robecco d´Oglio" >Robecco d´Oglio
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(51)" type="checkbox" value="salsomaggiore terme" >salsomaggiore terme
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(52)" type="checkbox" value="san daniele po" >san daniele po
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(53)" type="checkbox" value="san felice" >san felice
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(54)" type="checkbox" value="san giacomo al campo" >san giacomo al campo
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-</tr>
-
-<tr>
-
-<td valign="top">
-
-<input name="chk_comune(55)" type="checkbox" value="SAN GIACOMO LOVARA" >SAN GIACOMO LOVARA
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(56)" type="checkbox" value="San marino" >San marino
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(57)" type="checkbox" value="SAN MARTINO DELL´ARGINE" >SAN MARTINO DELL´ARGINE
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(58)" type="checkbox" value="san martino in beliseto" >san martino in beliseto
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(59)" type="checkbox" value="san pietro in corte" >san pietro in corte
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-</tr>
-
-<tr>
-
-<td valign="top">
-
-<input name="chk_comune(60)" type="checkbox" value="SAN SAVINO   CREMONA" >SAN SAVINO   CREMONA
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(61)" type="checkbox" value="SCANDOLARA RAVARA" >SCANDOLARA RAVARA
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(62)" type="checkbox" value="SESTO ED UNITI" >SESTO ED UNITI
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(63)" type="checkbox" value="Sesto ed Uniti (CR)" >Sesto ed Uniti (CR)
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(64)" type="checkbox" value="SORESINA" >SORESINA
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-</tr>
-
-<tr>
-
-<td valign="top">
-
-<input name="chk_comune(65)" type="checkbox" value="SOSPIRO" >SOSPIRO
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(66)" type="checkbox" value="SOSPIRO - SAN SALVATORE" >SOSPIRO - SAN SALVATORE
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(67)" type="checkbox" value="SPINADESCO" >SPINADESCO
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(68)" type="checkbox" value="STAGNO LOMBARDO" >STAGNO LOMBARDO
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(69)" type="checkbox" value="Stilo de Mariani" >Stilo de Mariani
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-</tr>
-
-<tr>
-
-<td valign="top">
-
-<input name="chk_comune(70)" type="checkbox" value="vari comuni" >vari comuni
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(71)" type="checkbox" value="Vescovato" >Vescovato
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-
-<td valign="top">
-
-<input name="chk_comune(72)" type="checkbox" value="zibello" >zibello
-
-
-<!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-</td>
-<input name="hd_contacom" type="hidden" value="73"></table>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <div class="col-sm-6">
-                                    <label for="prezzoMax">Prezzo Massimo</label>
-                                    <input type="text" id="prezzoMax" name="prezzoMassimo" class="form-control numeric-format" placeholder="Euro (€)">
-                                </div>
-                                <div class="col-sm-6">
-                                    <label for="prezzoMax">Prezzo Massimo</label>
-                                    <input type="text" id="prezzoMax" name="prezzoMassimo" class="form-control numeric-format" placeholder="Euro (€)">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                               <div class="radio">
-                                  <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                                    Option one is this and that&mdash;be sure to include why it's great
-                                  </label>
-                                </div>
-                                <div class="radio">
-                                  <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                                    Option two can be something else and selecting it will deselect option one
-                                  </label>
-                                </div>
-                               
-                            </div>
-                            <div class="form-group">
-                                <div class="checkbox">
-                                    <label>
-                                      <input type="checkbox"> Check me out
-                                    </label>
-                                  </div>
-                            </div>
-
-
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="avanzata">
                             <div class="row">
-                                <div class="col-sm-12">
-                                    <button type="submit" class="btn btn-default pull-right"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Cerca Avanzata</button>
+                                <div class="col-sm-8 col-sm-offset-2">
+                                    <form class="form-horizontal">
+                                        <div class="form-group">
+                                            <div class="col-sm-6">
+                                                <label for="exampleInputPassword1">Regione</label>
+                                                <select name="slt_regione" class="form-control" id="slt_regione">
+                                                    <option value="0">Selezionare una Regione</option>
+                                                    <option value="8">Emilia Romagna</option>
+                                                    <option value="2">Lombardia</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label for="exampleInputPassword1">Provincia</label>
+                                                <select name="slt_provincia" class="form-control" id="slt_provincia">
+                                                    <option value="0">Tutte le Province</option>
+                                                    <option value="16">Bologna (BO)</option>
+                                                    <option value="29">Cremona (CR)</option>
+                                                    <option value="52">Mantova (MN)</option>
+                                                    <option value="56">Milano (MI)</option>
+                                                    <option value="65">Parma (PR)</option>
+                                                    <option value="70">Piacenza (PC)</option>
+                                                    <option value="79">Reggio-Emilia (RE)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-sm-12">
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <br>sqlcomune select distinct(comune) as comuni from immobili where (id_gruppoutenti=2 or id_gruppoutenticond=2 ) order by comune asc
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(0)" type="checkbox" value="acquanegra cremonese">acquanegra cremonese
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(1)" type="checkbox" value="Bagnara">Bagnara
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(2)" type="checkbox" value="Bettenesco">Bettenesco
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(3)" type="checkbox" value="bonemerse">bonemerse
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(4)" type="checkbox" value="BOSCHETTO - CREMONA">BOSCHETTO - CREMONA
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(5)" type="checkbox" value="Bosco ex Parmigiano">Bosco ex Parmigiano
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(6)" type="checkbox" value="cappella de´ Picenardi">cappella de´ Picenardi
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(7)" type="checkbox" value="CASALBUTTANO">CASALBUTTANO
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(8)" type="checkbox" value="Casanova Del Morbasco">Casanova Del Morbasco
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(9)" type="checkbox" value="castelverde">castelverde
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(10)" type="checkbox" value="CASTELVERDE - COSTA S.ABRAMO">CASTELVERDE - COSTA S.ABRAMO
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(11)" type="checkbox" value="CASTELVERDE - LIVRASCO">CASTELVERDE - LIVRASCO
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(12)" type="checkbox" value="CASTELVETRO PC">CASTELVETRO PC
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(13)" type="checkbox" value="CASTELVETRO PIACENTINO">CASTELVETRO PIACENTINO
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(14)" type="checkbox" value="Cavatigozzi">Cavatigozzi
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(15)" type="checkbox" value="CA´ D´ANDREA - FRAZIONE BREDA GUAZZONA">CA´ D´ANDREA - FRAZIONE BREDA GUAZZONA
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(16)" type="checkbox" value="CICOGNOLO">CICOGNOLO
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(17)" type="checkbox" value="corte dè frati">corte dè frati
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(18)" type="checkbox" value="COSTA S.ABRAMO">COSTA S.ABRAMO
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(19)" type="checkbox" value="cremona">cremona
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(20)" type="checkbox" value="CREMONA LOC. MIGLIARO">CREMONA LOC. MIGLIARO
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(21)" type="checkbox" value="Cremona san felice">Cremona san felice
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(22)" type="checkbox" value="CREMONA,ZONA PO">CREMONA,ZONA PO
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(23)" type="checkbox" value="DEROVERE">DEROVERE
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(24)" type="checkbox" value="Dosimo">Dosimo
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(25)" type="checkbox" value="FENGO">FENGO
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(26)" type="checkbox" value="Gabbioneta binanuova">Gabbioneta binanuova
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(27)" type="checkbox" value="GADESCO PIEVE DELMONA">GADESCO PIEVE DELMONA
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(28)" type="checkbox" value="Gattatico">Gattatico
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(29)" type="checkbox" value="Grontardo fraz. Levata">Grontardo fraz. Levata
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(30)" type="checkbox" value="longardore">longardore
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(31)" type="checkbox" value="Madignano">Madignano
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(32)" type="checkbox" value="malagnino">malagnino
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(33)" type="checkbox" value="MILANO">MILANO
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(34)" type="checkbox" value="Monticelli D´Ongina">Monticelli D´Ongina
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(35)" type="checkbox" value="Monzuno">Monzuno
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(36)" type="checkbox" value="OLMENETA">OLMENETA
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(37)" type="checkbox" value="olza">olza
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(38)" type="checkbox" value="ostiano">ostiano
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(39)" type="checkbox" value="PADERNO PONCHIELLI">PADERNO PONCHIELLI
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(40)" type="checkbox" value="PERSICHELLO">PERSICHELLO
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(41)" type="checkbox" value="PERSICO DOSIMO  CREMONA">PERSICO DOSIMO CREMONA
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(42)" type="checkbox" value="PESCAROLO">PESCAROLO
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(43)" type="checkbox" value="PESSINA CREMONESE">PESSINA CREMONESE
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(44)" type="checkbox" value="Piadena">Piadena
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(45)" type="checkbox" value="pieve d´olmi">pieve d´olmi
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(46)" type="checkbox" value="pieve san giacomo">pieve san giacomo
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(47)" type="checkbox" value="Pizzighettone">Pizzighettone
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(48)" type="checkbox" value="POZZAGLIO">POZZAGLIO
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(49)" type="checkbox" value="pugnolo">pugnolo
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(50)" type="checkbox" value="Robecco d´Oglio">Robecco d´Oglio
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(51)" type="checkbox" value="salsomaggiore terme">salsomaggiore terme
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(52)" type="checkbox" value="san daniele po">san daniele po
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(53)" type="checkbox" value="san felice">san felice
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(54)" type="checkbox" value="san giacomo al campo">san giacomo al campo
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(55)" type="checkbox" value="SAN GIACOMO LOVARA">SAN GIACOMO LOVARA
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(56)" type="checkbox" value="San marino">San marino
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(57)" type="checkbox" value="SAN MARTINO DELL´ARGINE">SAN MARTINO DELL´ARGINE
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(58)" type="checkbox" value="san martino in beliseto">san martino in beliseto
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(59)" type="checkbox" value="san pietro in corte">san pietro in corte
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(60)" type="checkbox" value="SAN SAVINO   CREMONA">SAN SAVINO CREMONA
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(61)" type="checkbox" value="SCANDOLARA RAVARA">SCANDOLARA RAVARA
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(62)" type="checkbox" value="SESTO ED UNITI">SESTO ED UNITI
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(63)" type="checkbox" value="Sesto ed Uniti (CR)">Sesto ed Uniti (CR)
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(64)" type="checkbox" value="SORESINA">SORESINA
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(65)" type="checkbox" value="SOSPIRO">SOSPIRO
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(66)" type="checkbox" value="SOSPIRO - SAN SALVATORE">SOSPIRO - SAN SALVATORE
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(67)" type="checkbox" value="SPINADESCO">SPINADESCO
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(68)" type="checkbox" value="STAGNO LOMBARDO">STAGNO LOMBARDO
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(69)" type="checkbox" value="Stilo de Mariani">Stilo de Mariani
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(70)" type="checkbox" value="vari comuni">vari comuni
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(71)" type="checkbox" value="Vescovato">Vescovato
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <td valign="top">
+                                                                <input name="chk_comune(72)" type="checkbox" value="zibello">zibello
+                                                                <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
+                                                            </td>
+                                                            <input name="hd_contacom" type="hidden" value="73">
+                                                    </table>
+                                                </div>
+                                                <label for="exampleInputPassword1">Comune</label>
+                                                <!--<table border="1" align="center" cellpadding="0" cellspacing="0" class="table100"></table>-->
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-sm-6">
+                                                <label for="prezzoMax">Prezzo Massimo</label>
+                                                <input type="text" id="prezzoMax" name="prezzoMassimo" class="form-control numeric-format" placeholder="Euro (€)">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label for="prezzoMax">Prezzo Massimo</label>
+                                                <input type="text" id="prezzoMax" name="prezzoMassimo" class="form-control numeric-format" placeholder="Euro (€)">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Option one is this and that&mdash;be sure to include why it's great
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> Option two can be something else and selecting it will deselect option one
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Check me out
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <button type="submit" class="btn btn-default pull-right"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Cerca Avanzata</button>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
-                        </form>
+                        </div>
                     </div>
-                </div>
-                </div>
-
-              </div>
-
-            </div>   
-        </div>
-        </section>
-        <!--bloque color-->
-        <section id="color-wrap">
-            <div class="row">
-                <div class="col-sm-12">
-
                 </div>
             </div>
         </section>
@@ -1207,68 +693,64 @@
                 </div>
             </div>
         </section>
-        <!--Video Section Ends Here-->          
+        <!--Video Section Ends Here-->
     </div>
     <!--publicidad flotante-->
-        <section id="publi-wrap" class="hidden-xs">
-            <div class="row">
-                <div class="col-md-4  col-xs-6 publi-item">
-                    <a href=""><img src="http://placehold.it/170x250" alt=""></a>
-                </div>               
-            </div>  
-            <div class="row">
-                <div class="col-md-4 col-xs-6 publi-item">
-                    <a href=""><img src="http://placehold.it/170x250" alt=""></a>
-                </div>               
-            </div>  
-            <div class="row">
-                <div class="col-md-4 col-xs-6 publi-item">
-                    <a href=""><img src="http://placehold.it/170x250" alt=""></a>
-                </div>               
-            </div>            
-        </section>  
+    <section id="publi-wrap" class="hidden-xs">
+        <div class="row">
+            <div class="col-md-4  col-xs-6 publi-item">
+                <a href=""><img src="http://placehold.it/170x250" alt=""></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-xs-6 publi-item">
+                <a href=""><img src="http://placehold.it/170x250" alt=""></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-xs-6 publi-item">
+                <a href=""><img src="http://placehold.it/170x250" alt=""></a>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="container-fluid">
             <div class="col-sm-8 col-sm-offset-2">
-                 <div class="row">
+                <div class="row">
                     <div class="col-md-4 center-block  fot-box">
                         <a href="http://2016.cerco-casa-cremona.it/castelli_remo_immobiliare.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/castelli-remo-immobiliare.jpeg" alt=""></a>
                     </div>
                     <div class="col-md-4 center-block fot-box">
-                        <a href="http://2016.cerco-casa-cremona.it/csi_centro_servizi_immobiliari_cremona.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/centro-servizi-immobiliari-cremona.jpeg"   alt=""></a>
+                        <a href="http://2016.cerco-casa-cremona.it/csi_centro_servizi_immobiliari_cremona.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/centro-servizi-immobiliari-cremona.jpeg" alt=""></a>
                     </div>
                     <div class="col-md-4 center-block  fot-box">
-                        <a href="http://2016.cerco-casa-cremona.it/euroimmobiliare_cremona.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/euroimmobiliare-cremona.jpeg"   alt=""></a>
+                        <a href="http://2016.cerco-casa-cremona.it/euroimmobiliare_cremona.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/euroimmobiliare-cremona.jpeg" alt=""></a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-3 center-block fot-box">
-                        <a href="http://2016.cerco-casa-cremona.it/gaetani_immobiliare.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/gaetani-immobiliare-cremona.jpeg"   alt=""></a>
+                        <a href="http://2016.cerco-casa-cremona.it/gaetani_immobiliare.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/gaetani-immobiliare-cremona.jpeg" alt=""></a>
                     </div>
                     <div class="col-md-3 center-block fot-box">
-                        <a href="http://2016.cerco-casa-cremona.it/il_tetto_immobiliare.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/iltetto-immobiliare-cremona.jpeg"   alt=""></a>
+                        <a href="http://2016.cerco-casa-cremona.it/il_tetto_immobiliare.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/iltetto-immobiliare-cremona.jpeg" alt=""></a>
                     </div>
                     <div class="col-md-3 center-block  fot-box">
-                        <a href="http://2016.cerco-casa-cremona.it/mosa_immobiliare.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/immobiliare-mosa.jpeg"   alt=""></a>
+                        <a href="http://2016.cerco-casa-cremona.it/mosa_immobiliare.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/immobiliare-mosa.jpeg" alt=""></a>
                     </div>
                     <div class="col-md-3 center-block fot-box">
-                        <a href="http://2016.cerco-casa-cremona.it/immobil-project-agenzia_immobiliare_cremona.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/immobil-project.jpeg"   alt=""></a>
+                        <a href="http://2016.cerco-casa-cremona.it/immobil-project-agenzia_immobiliare_cremona.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/immobil-project.jpeg" alt=""></a>
                     </div>
                 </div>
-               
             </div>
         </div>
-    </footer>    
-    
-
-
+    </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="http://2016.cerco-casa-cremona.it/cami/vendor/js/bootstrap.min.js"></script>
-
     <script src="http://2016.cerco-casa-cremona.it/cami/js/script.js"></script>
     <!--video section script-->
     <script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
 </body>
+
 </html>

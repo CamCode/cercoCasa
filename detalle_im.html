@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,9 @@
     <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
     <!-- Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <!--Carousel-->
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,8 +23,7 @@
 </head>
 
 <body>
-
- <div class="container">
+    <div class="container">
         <div class="page-header">
             <div class="row">
                 <div class="col-sm-4">
@@ -34,15 +37,15 @@
             </div>
         </div>
     </div>
-   <!--menu-->
+    <!--menu-->
     <div class="container-fluid" id="nav-cerco">
-      <div class="navbar-header">
-              <button type="button" class="navbar-toggle">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-              </button>
+            </button>
         </div>
         <div class="container" id="nav-items">
             <div class="row">
@@ -72,113 +75,125 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <section id="list-sect ">
-             <div class="row">
-
-                
-                <!--listado casa -->
-                <div class="col-sm-6 col-sm-offset-1 list-wrap">
-                 <div class="row">
-                     <h2>titulo inmueble</h2>
-                     <div class="well well-sm alert-info">
-                         € 1.000.000 | 235 m2| 5 locali | 2 bagni | rata da € 4.239/mese                             
-                    </div> 
-                    <!--carrusel-->
-                    <div></div>
-                 </div>
-                </div>
-
-
-
-
-                <!--search wrap-->
-                <div class="col-sm-4 search-wrap">
-                    <!--formulario de busqueda-->
-                    <section id="form-wrapper" >
-
-                        <div class="panel panel-info">
-                            <div>
-
-                              <!-- Nav tabs -->
-                              <ul class="nav nav-tabs bg-info" role="tablist">
-                                <li role="presentation" class="active"><a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Contacto</a></li>
-                                                              
-                              </ul>
-
-                              <!-- Tab panes -->
-                              <div class="tab-content ">
-                                <div role="tabpanel" class="tab-pane fade in active" id="contact">
-                                     <div class="row">
-                                    <div class="col-sm-10 col-sm-offset-1">
-                                        <form class="form-horizontal">
-                                            <div class="form-group">
-                                                <div class="col-sm-12">
-                                                    <label for="name">Nome *</label>
-                                                    <input type="text" class="form-control" id="name" placeholder="Nome">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="col-sm-12">
-                                                    <label for="cognome">Cognome *</label>
-                                                     <input type="text" class="form-control" id="cogname" placeholder="Cognome">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="col-sm-12">
-                                                    <label for="email">E-mail *</label>
-                                                     <input type="text" class="form-control" id="email" placeholder="Email">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="col-sm-12">
-                                                    <label for="telefono">Telefono *</label>
-                                                     <input type="text" class="form-control" id="telefono" placeholder="Telefono">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="col-sm-12">
-                                                    <label for="richiesta ">Richiesta :</label>
-                                                    <textarea class="form-control" rows="5" id="richiesta ">
-                                                        Vorrei maggiori informazioni su questo immobile
-                                                    </textarea>
-                                                </div>
-                                            </div> 
-                                             <div class="row">
-                                                <div class="col-sm-12">
-                                                    <button type="submit" class="btn btn-default pull-right"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Buscar</button>
-                                                </div>
-                                            </div>
-                                        </form>
+    <div class="container">
+        <div class="row">
+            <!--detalle casa-->
+            <div class=" col-xs-12  col-md-8 list-wrap">
+                <section id="info-inm">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h1>Casa Autonoma Singola - Vendita</h1>
+                            <div class="well well-sm alert-info">
+                                <span class="precio"> <b>€ 1.000.000</b></span> |
+                                <span class="">5 locali </span> |
+                                <span class="">2 bagni</span> |
+                                <span class="">235 m2</span> |
+                                <span class=""> rata da € 4.239/mese</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="vitrina-principal">
+                                <div class="slide"><img src="http://placehold.it/350x250" alt=""></div>
+                                <div class="slide"><img src="http://placehold.it/450x350" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <h4>Descrizione: </h4>
+                            <p>In Cremona frazione Cavatigozzi (zona servita radiale) in vendita bellissima e graziosa casetta indipendente libera su due lati, completamente ristrutturata in stile rustico posta su due livelli e con ampia veranda ad uso esclusivo all´interno cortile comune. Al piano terra si accede nell´ampio soggiorno, cucina abitabile, sottoscala, bagno/lavanderia e porta d´accesso alla veranda. Al primo piano troviamo una camera da letto matrimoniale con piccola cabina armadio, seconda camera e bagno con finestra. Tutta l´abitazione ha bellissimi soffitti in legno con travi a vista, in ottime stato di manutenzione con serramenti in legno con doppi vetri ed imposte nuove, portoncino blindato e cancello di sicurezza sul retro. Riscaldamento autonomo con caldaia murale esterna, climatizzazione, archetti con mattoni in pietra. All´interno cortile comune di proprietà abbiamo un piccolo rustico ad uso cantina con sovrastante fienile e posto auto in corte comune. Vera occasione da non perdere.</p>
+                        </div>
+                        <div class="col-xs-12">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th><h4>Dati principali</h4></th>
+                                       
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Riferimento e Data annuncio</th>
+                                        <td>7002 - 18/01/2017</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Riferimento e Data annuncio</th>
+                                        <td>7002 - 18/01/2017</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Riferimento e Data annuncio</th>
+                                        <td>7002 - 18/01/2017</td>
+                                    </tr>
+                                     <tr>
+                                        <th scope="row">Riferimento e Data annuncio</th>
+                                        <td>7002 - 18/01/2017</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Riferimento e Data annuncio</th>
+                                        <td>7002 - 18/01/2017</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Riferimento e Data annuncio</th>
+                                        <td>7002 - 18/01/2017</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!--contact wrap-->
+            <div class="col-xs-12 col-md-4 search-wrap">
+                <!--formulario de busqueda-->
+                <section id="form-contacto">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-default pull-right"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Buscar</button>
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-default pull-right"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Buscar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                                     </div>
                                 </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    </div>
                                 </div>
-                                
-
-                              </div>
-
-                            </div>   
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <button type="submit" class="btn btn-default pull-right"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Buscar</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-                    </section>
-                </div>
-
-
-
-
-
-
+                    </div>
+                </section>
             </div>
-        </section>
-
-
+        </div>
     </div>
-       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="vendor/js/bootstrap.min.js"></script>
-
     <script src="js/script.js"></script>
     <!--video section script-->
     <script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
-  
+    <!--carrusel pop up img-->
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-buttons.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-media.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-thumbs.js"></script>
 </body>
