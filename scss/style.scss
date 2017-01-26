@@ -285,3 +285,10 @@ footer {
     }
 }
 
+.checkbox-inline{
+        text-transform: lowercase;
+        input{
+           text-transform: capitalize;  
+        }
+
+}

@@ -250,7 +250,7 @@
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="avanzata">
                             <div class="row">
-                                <div class="col-sm-8 col-sm-offset-2">
+                                <div class="col-sm-10 col-sm-offset-1">
                                     <form class="form-horizontal">
                                         <div class="form-group">
                                             <div class="col-sm-6">
@@ -275,335 +275,479 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="form-group">
-                                            <div class="col-sm-12">
-                                                <div class="table-responsive">
-                                                    <table class="table">
-                                                        <br>sqlcomune select distinct(comune) as comuni from immobili where (id_gruppoutenti=2 or id_gruppoutenticond=2 ) order by comune asc
-                                                        <tr>
-                                                            <td valign="top">
+                                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Opciones <span class="glyphicon glyphicon-chevron-down"></span></button>
+                                        <div class="col-sm-10">
+                                            <div id="demo" class="collapse">
+                                                <table class="table">
+                                                    <br>sqlcomune select distinct(comune) as comuni from immobili where (id_gruppoutenti=2 or id_gruppoutenticond=2 ) order by comune asc
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(0)" type="checkbox" value="acquanegra cremonese">acquanegra cremonese
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(1)" type="checkbox" value="Bagnara">Bagnara
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(2)" type="checkbox" value="Bettenesco">Bettenesco
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(3)" type="checkbox" value="bonemerse">bonemerse
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(4)" type="checkbox" value="BOSCHETTO - CREMONA">BOSCHETTO - CREMONA
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(5)" type="checkbox" value="Bosco ex Parmigiano">Bosco ex Parmigiano
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(6)" type="checkbox" value="cappella de´ Picenardi">cappella de´ Picenardi
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(7)" type="checkbox" value="CASALBUTTANO">CASALBUTTANO
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(8)" type="checkbox" value="Casanova Del Morbasco">Casanova Del Morbasco
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(9)" type="checkbox" value="castelverde">castelverde
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(10)" type="checkbox" value="CASTELVERDE - COSTA S.ABRAMO">CASTELVERDE - COSTA S.ABRAMO
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(11)" type="checkbox" value="CASTELVERDE - LIVRASCO">CASTELVERDE - LIVRASCO
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(12)" type="checkbox" value="CASTELVETRO PC">CASTELVETRO PC
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(13)" type="checkbox" value="CASTELVETRO PIACENTINO">CASTELVETRO PIACENTINO
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(14)" type="checkbox" value="Cavatigozzi">Cavatigozzi
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(15)" type="checkbox" value="CA´ D´ANDREA - FRAZIONE BREDA GUAZZONA">CA´ D´ANDREA - FRAZIONE BREDA GUAZZONA
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(16)" type="checkbox" value="CICOGNOLO">CICOGNOLO
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(17)" type="checkbox" value="corte dè frati">corte dè frati
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(18)" type="checkbox" value="COSTA S.ABRAMO">COSTA S.ABRAMO
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(19)" type="checkbox" value="cremona">cremona
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(20)" type="checkbox" value="CREMONA LOC. MIGLIARO">CREMONA LOC. MIGLIARO
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(21)" type="checkbox" value="Cremona san felice">Cremona san felice
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(22)" type="checkbox" value="CREMONA,ZONA PO">CREMONA,ZONA PO
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(23)" type="checkbox" value="DEROVERE">DEROVERE
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(24)" type="checkbox" value="Dosimo">Dosimo
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(25)" type="checkbox" value="FENGO">FENGO
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(26)" type="checkbox" value="Gabbioneta binanuova">Gabbioneta binanuova
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(27)" type="checkbox" value="GADESCO PIEVE DELMONA">GADESCO PIEVE DELMONA
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(28)" type="checkbox" value="Gattatico">Gattatico
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(29)" type="checkbox" value="Grontardo fraz. Levata">Grontardo fraz. Levata
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(30)" type="checkbox" value="longardore">longardore
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(31)" type="checkbox" value="Madignano">Madignano
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(32)" type="checkbox" value="malagnino">malagnino
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(33)" type="checkbox" value="MILANO">MILANO
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(34)" type="checkbox" value="Monticelli D´Ongina">Monticelli D´Ongina
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(35)" type="checkbox" value="Monzuno">Monzuno
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(36)" type="checkbox" value="OLMENETA">OLMENETA
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(37)" type="checkbox" value="olza">olza
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(38)" type="checkbox" value="ostiano">ostiano
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(39)" type="checkbox" value="PADERNO PONCHIELLI">PADERNO PONCHIELLI
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(40)" type="checkbox" value="PERSICHELLO">PERSICHELLO
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(41)" type="checkbox" value="PERSICO DOSIMO  CREMONA">PERSICO DOSIMO CREMONA
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(42)" type="checkbox" value="PESCAROLO">PESCAROLO
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(43)" type="checkbox" value="PESSINA CREMONESE">PESSINA CREMONESE
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(44)" type="checkbox" value="Piadena">Piadena
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(45)" type="checkbox" value="pieve d´olmi">pieve d´olmi
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(46)" type="checkbox" value="pieve san giacomo">pieve san giacomo
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(47)" type="checkbox" value="Pizzighettone">Pizzighettone
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(48)" type="checkbox" value="POZZAGLIO">POZZAGLIO
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(49)" type="checkbox" value="pugnolo">pugnolo
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(50)" type="checkbox" value="Robecco d´Oglio">Robecco d´Oglio
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(51)" type="checkbox" value="salsomaggiore terme">salsomaggiore terme
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(52)" type="checkbox" value="san daniele po">san daniele po
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(53)" type="checkbox" value="san felice">san felice
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(54)" type="checkbox" value="san giacomo al campo">san giacomo al campo
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(55)" type="checkbox" value="SAN GIACOMO LOVARA">SAN GIACOMO LOVARA
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(56)" type="checkbox" value="San marino">San marino
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(57)" type="checkbox" value="SAN MARTINO DELL´ARGINE">SAN MARTINO DELL´ARGINE
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(58)" type="checkbox" value="san martino in beliseto">san martino in beliseto
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(59)" type="checkbox" value="san pietro in corte">san pietro in corte
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(60)" type="checkbox" value="SAN SAVINO   CREMONA">SAN SAVINO CREMONA
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(61)" type="checkbox" value="SCANDOLARA RAVARA">SCANDOLARA RAVARA
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(62)" type="checkbox" value="SESTO ED UNITI">SESTO ED UNITI
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(63)" type="checkbox" value="Sesto ed Uniti (CR)">Sesto ed Uniti (CR)
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(64)" type="checkbox" value="SORESINA">SORESINA
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td valign="top">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(65)" type="checkbox" value="SOSPIRO">SOSPIRO
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(66)" type="checkbox" value="SOSPIRO - SAN SALVATORE">SOSPIRO - SAN SALVATORE
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(67)" type="checkbox" value="SPINADESCO">SPINADESCO
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(68)" type="checkbox" value="STAGNO LOMBARDO">STAGNO LOMBARDO
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(69)" type="checkbox" value="Stilo de Mariani">Stilo de Mariani
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(70)" type="checkbox" value="vari comuni">vari comuni
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(71)" type="checkbox" value="Vescovato">Vescovato
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <td valign="top">
+                                                            </label>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <label class="checkbox-inline">
                                                                 <input name="chk_comune(72)" type="checkbox" value="zibello">zibello
                                                                 <!--<input name="chk_comune" type="checkbox" id="chk_comune" value="">-->
-                                                            </td>
-                                                            <input name="hd_contacom" type="hidden" value="73">
-                                                    </table>
-                                                </div>
+                                                            </label>
+                                                        </td>
+                                                        <input name="hd_contacom" type="hidden" value="73">
+                                                </table>
                                                 <label for="exampleInputPassword1">Comune</label>
                                                 <!--<table border="1" align="center" cellpadding="0" cellspacing="0" class="table100"></table>-->
                                             </div>
