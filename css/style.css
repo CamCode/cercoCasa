@@ -196,7 +196,9 @@ footer {
   #list-sect .list-wrap img {
     max-width: 180px; }
 
-.checkbox-inline {
-  text-transform: lowercase; }
-  .checkbox-inline input {
-    text-transform: capitalize; }
+.well {
+  background-color: #d9edf7; }
+  .well .checkbox-inline {
+    text-transform: lowercase; }
+    .well .checkbox-inline input {
+      text-transform: capitalize; }

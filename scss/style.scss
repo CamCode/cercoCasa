@@ -285,10 +285,12 @@ footer {
     }
 }
 
-.checkbox-inline{
+.well {
+    background-color: #d9edf7;
+    .checkbox-inline {
         text-transform: lowercase;
-        input{
-           text-transform: capitalize;  
+        input {
+            text-transform: capitalize;
         }
-
+    }
 }
