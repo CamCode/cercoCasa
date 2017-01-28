@@ -204,14 +204,18 @@ a {
 
 //video section
 .video-section {
-    height: 25vw;
+    height: 30vw;
     overflow: hidden;
     width: 70%;
     margin: 10px auto;
+    iframe.playerBox{
+        width: 100%!important;
+        top:12%!important;
+    }
     .pattern-overlay {
-        background-color: rgba(71, 71, 71, 0.59);
+        /*background-color: rgba(71, 71, 71, 0.59);*/
         padding: 110px 0 32px;
-        min-height: 496px;
+        min-height: 600px;
         /* Incase of overlay problems just increase the min-height*/
     }
     h1 {
@@ -287,10 +291,11 @@ footer {
 
 .well {
     background-color: #d9edf7;
-    .checkbox-inline {
-        text-transform: lowercase;
-        input {
-            text-transform: capitalize;
-        }
+}
+
+.checkbox-inline {
+    text-transform: lowercase;
+    input {
+        text-transform: capitalize;
     }
 }
