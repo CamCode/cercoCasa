@@ -1,5 +1,11 @@
 ﻿$(document).ready(function() {
 
+     $('.vtr-prin').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+
     $(".player").mb_YTPlayer();
 
 
@@ -33,17 +39,7 @@
 
     }
 
-    $('.vitrina-principal').slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        adaptiveHeight: true,
-        dots: true,
-        autoplay: true,
-        pauseOnHover: true,
-        arrows: true,
-        autoplaySpeed: 7000
-    });
+   
 
 
 

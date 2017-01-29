@@ -208,9 +208,9 @@ a {
     overflow: hidden;
     width: 70%;
     margin: 10px auto;
-    iframe.playerBox{
+    iframe.playerBox {
         width: 100%!important;
-        top:12%!important;
+        top: 12%!important;
     }
     .pattern-overlay {
         /*background-color: rgba(71, 71, 71, 0.59);*/
@@ -299,3 +299,8 @@ footer {
         text-transform: capitalize;
     }
 }
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }

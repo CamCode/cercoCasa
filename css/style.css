@@ -206,3 +206,8 @@ footer {
   text-transform: lowercase; }
   .checkbox-inline input {
     text-transform: capitalize; }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto; }
