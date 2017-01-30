@@ -278,6 +278,10 @@ footer {
 //listado pag 
 //list wrap 
 #list-sect {
+    .media p {
+        max-height: 143px;
+        overflow: hidden;
+    }
     .media-right img {
         max-width: 75px!important;
         ;

@@ -193,6 +193,10 @@ footer {
     margin-top: 5px;
     margin-bottom: 10px; }
 
+#list-sect .media p {
+  max-height: 143px;
+  overflow: hidden; }
+
 #list-sect .media-right img {
   max-width: 75px !important; }
 
