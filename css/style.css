@@ -2,6 +2,9 @@
 body {
   font: Arial, Helvetica, sans-serif; }
 
+h4 {
+  color: #319ACF; }
+
 .hide {
   display: none; }
 
@@ -176,6 +179,9 @@ a {
   right: 5px; }
   #publi-wrap .publi-item {
     margin-top: 10px; }
+  @media (max-width: 768px) {
+    #publi-wrap {
+      display: none; } }
 
 footer {
   background-color: #319ACF;
@@ -197,7 +203,7 @@ footer {
   #list-sect .list-wrap em {
     font-size: 0.9em; }
   #list-sect .list-wrap img {
-    max-width: 180px; }
+    max-width: 200px; }
 
 .well {
   background-color: #d9edf7; }
@@ -206,6 +212,16 @@ footer {
   text-transform: lowercase; }
   .checkbox-inline input {
     text-transform: capitalize; }
+
+.divascookies {
+  top: auto !important;
+  bottom: 0px !important;
+  font-size: 0.7em !important; }
+
+.divascookies-banner-container > .divascookies-accept-button-container {
+  display: block !important;
+  width: 100px;
+  margin: auto; }
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {

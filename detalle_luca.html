@@ -56,12 +56,12 @@ $(document).ready(function(jQuery) {
     <div class="container">
         <div class="page-header">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <a href="#">
                         <img src="http://cerco-casa-cremona.it/img/logo.jpg" alt="" class="img-responsive" />
                     </a>
                 </div>
-                <div class="col-sm-6 col-md-offset-2">
+                <div class="col-sm-6">
                     <h1><small>7 Agenzie Immobiliari di Cremona che collaborano in una Banca Dati</small></h1>
                 </div>
             </div>
@@ -123,25 +123,7 @@ $(document).ready(function(jQuery) {
                         </div>
                         <div class="row">
                             <div class="col-xs-12">
-                                <!-- <div class="vitrina-principal">
-                                    <div><img src="http://www.cerco-casa-cremona.it/foto/DSC08043.JPG" alt=""></div>
-                                    <div><img src="http://www.cerco-casa-cremona.it/foto/DSC08046.JPG" alt=""></div>
-                                    <div><img src="http://www.cerco-casa-cremona.it/foto/DSC08034.JPG" alt=""></div>
-                                    <div><img src="http://www.cerco-casa-cremona.it/foto/DSC08033.JPG" alt=""></div>
-                                    <div><img src="http://www.cerco-casa-cremona.it/foto/DSC08045.JPG" alt=""></div>
-                                    <div><img src="http://www.cerco-casa-cremona.it/foto/DSC08041.JPG" alt=""></div>
-                                    <div><img src="http://www.cerco-casa-cremona.it/foto/DSC08031.JPG" alt=""></div>
-                                    <div><img src="http://www.cerco-casa-cremona.it/foto/DSC08038.JPG" alt=""></div>
-                                    <div><img src="http://www.cerco-casa-cremona.it/foto/DSC08027.JPG" alt=""></div>
-                                    <div><img src="http://www.cerco-casa-cremona.it/foto/DSC08028.JPG" alt=""></div>
-                                </div> -->
                                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                                    <!-- Indicators
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                                    </ol> -->
                                     <!-- Wrapper for slides -->
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
@@ -172,7 +154,7 @@ $(document).ready(function(jQuery) {
                                             <img src="http://www.cerco-casa-cremona.it/foto/DSC08027.JPG" alt="">
                                         </div>
                                         <div class="item">
-                                            <img src="http://www.cerco-casa-cremona.it/foto/DSC0802.JPG" alt="">
+                                            <img src="http://www.cerco-casa-cremona.it/foto/DSC08028.JPG" alt="">
                                         </div>
                                     </div>
                                     <!-- Controls -->
@@ -336,12 +318,14 @@ $(document).ready(function(jQuery) {
                 </section>
             </div>
             <!--contact wrap-->
+            <br />
             <div class="col-xs-12 col-md-4 search-wrap">
                 <!--formulario de busqueda-->
                 <section id="form-contacto">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <div class="row">
+                            Richiedi Informazioni su questo annuncio - Contatta l' Agenzia
+                            <!-- <div class="row">
                                 <div class="col-sm-12">
                                 </div>
                                 <div class="col-sm-6">
@@ -350,34 +334,97 @@ $(document).ready(function(jQuery) {
                                 <div class="col-sm-6">
                                     <button type="submit" class="btn btn-default pull-right"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Buscar</button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="panel-body">
                             <form class="form-horizontal">
                                 <div class="form-group">
                                     <div class="col-sm-12">
-                                        <label for="exampleInputPassword1">Password</label>
+                                        <label for="exampleInputPassword1">Nome</label>
                                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="col-sm-12">
-                                        <label for="exampleInputPassword1">Password</label>
+                                        <label for="exampleInputPassword1">Cognome</label>
                                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <label for="exampleInputPassword1">e-mail</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <label for="exampleInputPassword1">Telefono</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <label for="exampleInputPassword1">Richiesta</label>
+                                        <textarea class="form-control" rows="3"></textarea>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-12">
-                                        <button type="submit" class="btn btn-default pull-right"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Buscar</button>
+                                        <button type="submit" class="btn btn-default pull-right"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Invia Richiesta</button>
                                     </div>
                                 </div>
                             </form>
+                            <div class="row">
+                                <div class="col-sm-12 center-block ">
+                                    <div class="col-sm-12 text-center">
+                                        <img src="http://2016.cerco-casa-cremona.it/imgccc/centro-servizi-immobiliari-cremona.jpeg" alt="">
+                                    </div>
+                                    <address>
+                                        <strong>CSI</strong>
+                                        <br> via Dante n° 103/A
+                                        <br> Cremona (CR)
+                                        <br>
+                                        <abbr title="Phone">TEL:</abbr>  0372 24089
+                                    </address>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
             </div>
         </div>
     </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="row">
+                    <div class="col-md-4 center-block  fot-box">
+                        <a href="http://2016.cerco-casa-cremona.it/castelli_remo_immobiliare.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/castelli-remo-immobiliare.jpeg" alt=""></a>
+                    </div>
+                    <div class="col-md-4 center-block fot-box">
+                        <a href="http://2016.cerco-casa-cremona.it/csi_centro_servizi_immobiliari_cremona.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/centro-servizi-immobiliari-cremona.jpeg" alt=""></a>
+                    </div>
+                    <div class="col-md-4 center-block  fot-box">
+                        <a href="http://2016.cerco-casa-cremona.it/euroimmobiliare_cremona.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/euroimmobiliare-cremona.jpeg" alt=""></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 center-block fot-box">
+                        <a href="http://2016.cerco-casa-cremona.it/gaetani_immobiliare.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/gaetani-immobiliare-cremona.jpeg" alt=""></a>
+                    </div>
+                    <div class="col-md-3 center-block fot-box">
+                        <a href="http://2016.cerco-casa-cremona.it/il_tetto_immobiliare.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/iltetto-immobiliare-cremona.jpeg" alt=""></a>
+                    </div>
+                    <div class="col-md-3 center-block  fot-box">
+                        <a href="http://2016.cerco-casa-cremona.it/mosa_immobiliare.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/immobiliare-mosa.jpeg" alt=""></a>
+                    </div>
+                    <div class="col-md-3 center-block fot-box">
+                        <a href="http://2016.cerco-casa-cremona.it/immobil-project-agenzia_immobiliare_cremona.asp"><img src="http://2016.cerco-casa-cremona.it/imgccc/immobil-project.jpeg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

@@ -1,11 +1,5 @@
 ﻿$(document).ready(function() {
 
-     $('.vtr-prin').slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    });
-
     $(".player").mb_YTPlayer();
 
 
