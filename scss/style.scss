@@ -265,14 +265,27 @@ a {
 //footer
 footer {
     background-color: $nav-color;
-    padding: 20px 0px;
+    padding: 10px;
     .fot-box {
-        max-height: 80px;
+        max-height: 110px;
         overflow: hidden;
         text-align: center;
         margin-top: 5px;
         margin-bottom: 10px;
     }
+    .footerRow {
+        &:nth-child(1n) {
+            img {
+                width: 85%;
+            }
+        }
+        &:nth-child(2n) {
+            img {
+                width: 75%;
+            }
+        }
+    }
+        
 }
 
 //listado pag 

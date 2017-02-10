@@ -185,13 +185,17 @@ a {
 
 footer {
   background-color: #319ACF;
-  padding: 20px 0px; }
+  padding: 10px; }
   footer .fot-box {
-    max-height: 80px;
+    max-height: 110px;
     overflow: hidden;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px; }
+  footer .footerRow:nth-child(1n) img {
+    width: 85%; }
+  footer .footerRow:nth-child(2n) img {
+    width: 75%; }
 
 #list-sect .media p {
   max-height: 143px;
