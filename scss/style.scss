@@ -14,6 +14,16 @@ body {
     font: $font-stack;
 }
 
+h1 {
+    font-size: 4em;
+    color: #434d8b;
+}
+
+small {
+    font-size: 1em;
+    color: #999;
+}
+
 h4 {
     color: $nav-color;
 }
@@ -267,7 +277,8 @@ footer {
     background-color: $nav-color;
     padding: 10px;
     .fot-box {
-        max-height: 110px;
+        min-height: 100px;
+        max-height: 160px;
         overflow: hidden;
         text-align: center;
         margin-top: 5px;
@@ -276,16 +287,17 @@ footer {
     .footerRow {
         &:nth-child(1n) {
             img {
-                width: 85%;
+                min-width: 58%;
+                max-width: 54%;
             }
         }
         &:nth-child(2n) {
             img {
-                width: 75%;
+                min-width: 65%;
+                max-width: 60%;
             }
         }
     }
-        
 }
 
 //listado pag 

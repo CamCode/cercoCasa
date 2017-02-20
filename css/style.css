@@ -2,6 +2,14 @@
 body {
   font: Arial, Helvetica, sans-serif; }
 
+h1 {
+  font-size: 4em;
+  color: #434d8b; }
+
+small {
+  font-size: 1em;
+  color: #999; }
+
 h4 {
   color: #319ACF; }
 
@@ -187,15 +195,18 @@ footer {
   background-color: #319ACF;
   padding: 10px; }
   footer .fot-box {
-    max-height: 110px;
+    min-height: 100px;
+    max-height: 160px;
     overflow: hidden;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px; }
   footer .footerRow:nth-child(1n) img {
-    width: 85%; }
+    min-width: 58%;
+    max-width: 54%; }
   footer .footerRow:nth-child(2n) img {
-    width: 75%; }
+    min-width: 65%;
+    max-width: 60%; }
 
 #list-sect .media p {
   max-height: 143px;
